@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.12.1" orientation="orthogonal" renderorder="right-down" width="20" height="10" tilewidth="32" tileheight="32" infinite="0" nextlayerid="12" nextobjectid="76">
+ <properties>
+  <property name="music" value="CEMETERY"/>
+ </properties>
+ <tileset firstgid="1" source="objects/Grass Land 2/TiledMap Editor/Tilesets/platform - grass - coast - godot.tsx"/>
+ <tileset firstgid="647" source="objects/Grass Land 2/TiledMap Editor/Tilesets/hole1.tsx"/>
+ <tileset firstgid="887" source="objects/Grass Land 2/TiledMap Editor/Tilesets/platform - grass to water - godot.tsx"/>
+ <tileset firstgid="1535" source="objects/Cemetery/TiledMap Editor/Tilesets/Terrain - cemetery.tsx"/>
+ <tileset firstgid="4622" source="objects/Cemetery/TiledMap Editor/Tilesets/atlas-props-sprites.tsx"/>
+ <tileset firstgid="5442" source="objects/Grass Land 2/TiledMap Editor/Tilesets/Items.tsx"/>
+ <tileset firstgid="5554" source="objects/Grass Land/TiledMap Editor/tilesets/Characters.tsx"/>
+ <tileset firstgid="5575" source="objects/Grass Land 2/TiledMap Editor/Tilesets/platform - grass(transparency) - coast.tsx"/>
+ <layer id="1" name="ground" width="20" height="10">
+  <data encoding="base64" compression="zlib">
+   eJzjYWBg4BnFo3gUY8UAvLIJYQ==
+  </data>
+ </layer>
+ <layer id="6" name="ground2" width="20" height="10">
+  <data encoding="base64" compression="zlib">
+   eJyNklEOgjAQRDepovQ+oN5IOAEo94Arqb/qeZwGNqw40k7ykma7O90mI/KtjRfZgizCDuy9ULVuPhfoKcE5whGcJr/GjR4XN/upZ4+eIcEvUPvRy/rZ8xV04Ia+ewIP/zvfkh1V7K1/9bX9lmI9rKb7LYnt98xFXuCd8/+yOZ1haJ40M3aWKZbBkKeDycyaX7hLzWA1ZcbqA2jCSRA=
+  </data>
+ </layer>
+ <layer id="7" name="ground3" width="20" height="10">
+  <data encoding="base64" compression="zlib">
+   eJx7xcbA8BqIdwFxJxBTCnYCzXgFxbN5KTfvFQ3No4afkc2DmcnJS765r5HMkman3O+v2FDNBGEZoLm+7JSbtxNqliyZZoHASyR37aRCHCOHGQi/oTB+Aau0Kcg=
+  </data>
+ </layer>
+ <layer id="8" name="ground4" width="20" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYGBgcGVnYDDmZWA4CaRJBfj0DAXzSDWTkHqYmcj4BJQ+hUWOWPuJNYsY8wiZQ45/qQWoaRY1zAMAeIYl7Q==
+  </data>
+ </layer>
+ <layer id="9" name="ground5" width="20" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAMvGBjYJBhZ2CQZafQICjI4mVgmMVLHbNAIBNo1mwizTvFhR+DAMi/u4C4k414N2RwoWIY2A40YwcQv2LDdONGoBgTUIwZiJuA7GY2wuZJAuNAih0SH75o8ZEKNOcp0IwnQCwGlBMH4iucDAysQP1saJgdyUyYf3ezIdzFAjRrE5pZIAAyy4wL030WSOZxcKH6N4UXYY4JkO2O5G5sZqH72RJqHsyNwlBzxIlIjzBzkM3LgpoHwnOA5gAA1ksuaA==
+  </data>
+ </layer>
+ <layer id="10" name="ground6" width="20" height="10">
+  <data encoding="base64" compression="zlib">
+   eJy7zMHAcAWIrwIxOeAymn4TTgYGMyCu5yfPvAB+iH4LTgg/FUjLAsUyOckzD6R/BidCP8i97GSadRlLOKVyUua2mWTqJRaQ61dcgBrupSQOsAFQmiE3vWEDyPECANquEcw=
+  </data>
+ </layer>
+ <layer id="11" name="ground7" width="20" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAO4BNjYAijklkgoC8GMXMUjIKBBABlzADk
+  </data>
+ </layer>
+ <objectgroup id="2" name="objects">
+  <object id="1" gid="4622" x="186" y="257.333" width="288" height="160"/>
+  <object id="3" gid="4794" x="28.75" y="145.5" width="128" height="160"/>
+  <object id="4" gid="5438" x="126.083" y="152.167" width="32" height="32"/>
+  <object id="6" gid="5437" x="28.3333" y="150.083" width="32" height="32"/>
+  <object id="7" gid="5049" x="98" y="311" width="64" height="64"/>
+  <object id="12" gid="5118" x="-71.6667" y="101.667" width="160" height="192"/>
+  <object id="18" gid="4912" x="4.33333" y="199.333" width="32" height="32"/>
+  <object id="19" gid="4734" x="0.363636" y="207.636" width="32" height="32"/>
+  <object id="20" gid="4734" x="0.347826" y="239.087" width="32" height="32"/>
+  <object id="21" gid="4734" x="0.355556" y="270.822" width="32" height="32"/>
+  <object id="22" gid="4734" x="0.34375" y="302.688" width="32" height="32"/>
+  <object id="23" gid="4734" x="0.355556" y="176.244" width="32" height="32"/>
+  <object id="24" gid="4734" x="0.34375" y="144.406" width="32" height="32"/>
+  <object id="25" gid="4732" x="0.375" y="112.688" width="32" height="32"/>
+  <object id="26" gid="4743" x="4.34783" y="333.13" width="32" height="32"/>
+  <object id="27" gid="4738" x="34.75" y="333.125" width="32" height="32"/>
+  <object id="28" gid="4738" x="66.5625" y="333.125" width="32" height="32"/>
+  <object id="29" gid="4738" x="98.0313" y="333.094" width="32" height="32"/>
+  <object id="32" gid="4733" x="128.545" y="333.091" width="32" height="32"/>
+  <object id="38" gid="4738" x="31.7778" y="112.689" width="32" height="32"/>
+  <object id="40" gid="4737" x="139" y="114" width="32" height="32"/>
+  <object id="41" gid="4743" x="143" y="136.875" width="32" height="32"/>
+  <object id="42" gid="4791" x="194.25" y="142.25" width="64" height="96"/>
+  <object id="58" gid="5528" x="603.333" y="98.4167" width="32" height="32"/>
+  <object id="61" name="player" gid="5554" x="458.166" y="182.5" width="144" height="96">
+   <properties>
+    <property name="camFollow" type="bool" value="true"/>
+    <property name="controller" type="bool" value="true"/>
+    <property name="respawnDelaySec" type="float" value="3"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="3" name="objects1"/>
+ <objectgroup id="4" name="trigger">
+  <object id="63" name="portal_to_village" x="637.998" y="54.3864" width="4.27664" height="202.667">
+   <properties>
+    <property name="sensor" type="bool" value="true"/>
+    <property name="spawnAt" value="entry_from_bridgeToCemetery"/>
+    <property name="targetMap" value="village1.tmx"/>
+   </properties>
+  </object>
+  <object id="69" name="kolizja" x="593.091" y="-0.0909091">
+   <polygon points="0,0 5.72727,8.18182 15.0909,10.4545 22.5455,14.1818 31.3636,30.7273 36.1818,41.0909 46.6364,43.0909 48.8182,43.0909 49.1818,-3.36364 0.0909091,-3.45455"/>
+  </object>
+  <object id="74" name="death" x="165" y="1.33333">
+   <properties>
+    <property name="canDamage" type="float" value="500"/>
+   </properties>
+   <polygon points="0,0 -29.6667,19 -45.3333,40.3333 -30,68 -14.1846,80.4861 -0.212121,83.2424 10.1667,102.753 24.697,109.576 40.2968,116.015 56.303,116.727 307.333,113.273 323.909,106.909 335.091,87.6364 335.97,75.303 334.212,55.9091 338.152,46.6364 335.455,32 323.909,21.3636 318.333,9.66667 309.667,-3.33333 20.6667,-3.5"/>
+  </object>
+  <object id="75" name="death2" x="248.364" y="208.182">
+   <properties>
+    <property name="canDamage" type="float" value="500"/>
+   </properties>
+   <polygon points="-0.125,-1.5 -10.9091,10.5455 -15.6364,22.9091 -29.4545,30.9091 -40.7273,43.8182 -43.6364,52.9091 -58.1818,62.1818 -69.4545,72 -73.8182,88 -76.7273,94.3636 -74.1818,106.545 -75.4545,111.909 285.364,111.909 283.727,103.182 286.545,95.4545 281.091,84.2727 283.909,72.4545 286.727,63.6364 283.091,55.7273 283,48.2727 275,39.0909 267.091,29 251.636,24.6364 243.273,12.3636 240.909,3.54545 232.636,-4.09091 207.182,-4.63636 186.727,-8.54545 174.023,-5.21591"/>
+  </object>
+ </objectgroup>
+ <objectgroup id="5" name="spawn">
+  <object id="64" name="entry_from_village" x="541.682" y="188.697" width="40.3333" height="17.3333"/>
+ </objectgroup>
+</map>

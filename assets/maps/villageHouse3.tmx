@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.12.1" orientation="orthogonal" renderorder="right-down" width="30" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="93">
+ <properties>
+  <property name="music" value="HOUSE"/>
+ </properties>
+ <tileset firstgid="1" source="objects/Houses/TiledMap Editor/back.tsx"/>
+ <tileset firstgid="118" source="objects/Houses/TiledMap Editor/Interiors_tilesets.tsx"/>
+ <tileset firstgid="3510" source="objects/Houses/TiledMap Editor/Houses-Atlas-Props-Sprites.tsx"/>
+ <tileset firstgid="4067" source="objects/Grass Land/TiledMap Editor/tilesets/AnimatedObjectsSprites.tsx"/>
+ <tileset firstgid="4097" source="objects/Grass Land/TiledMap Editor/tilesets/Characters.tsx"/>
+ <tileset firstgid="4118" source="objects/Grass Land/TiledMap Editor/tilesets/itemsShop.tsx"/>
+ <layer id="1" name="ground1" width="30" height="15">
+  <data encoding="base64" compression="zlib">
+   eJyTZ2BgkB/Fo3gUj+JRPIpHKAYAEjw2fw==
+  </data>
+ </layer>
+ <layer id="2" name="ground2" width="30" height="15">
+  <data encoding="base64" compression="zlib">
+   eJzlk1kOgjAURZsmQHDWDRB1NZDwgZ9OrMcBE/xU1PWoOK7I26ChIRRk8MsmJ6G3TU9eHyXkv8dJIuRcEB9cwBXcwB08pGRvRSakWpAaqIMGaIIWaMtipyoH3iElZATGYAKmwKb5c5YleXWsGWCDfVvggR3YgwPNn7PMSvDOsDb/Ub0uzl0L3EfkJujSbPRS1vo0OPcp8KpKeF9l16xRsVeHdwkMpfwe2xHv57353NvL02Pti5p5rynHk7UuO6VmL+Itu4+inHk7Sugtu4+i3IJzwHkdfK9iWLz/MYebpxHdz89dzsnGC9uFmRM=
+  </data>
+ </layer>
+ <layer id="8" name="ground3" width="30" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFBizUx6SAfGYGhgIgLmSmnhw+IMXEwCANxDJALAvEckAsz4RdHF0Ml15iQDojYZwBxDFA87KIUAvChAAoLpYzEsYaTBB7QTQx6kmNY3oBKSLjgpbmhnIxMIQBcTgSDcMRXLjVhKGpIRVMBeqbDsXT0NgzuLCrmYZFDangKlDfNSR8HUrD/Ijsr+toakD0DTz2oudFWP4jFA7U8Bep4CpaGODz12ADANGiRR0=
+  </data>
+ </layer>
+ <layer id="9" name="ground4" width="30" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFIw1IMTEwSAOxDBDLArEcE2Vi8kwD7aNRMApGwSggHwAAMgYCeg==
+  </data>
+ </layer>
+ <objectgroup id="3" name="zones"/>
+ <objectgroup id="4" name="objects">
+  <object id="1" gid="3552" x="271.167" y="142" width="128" height="32"/>
+  <object id="2" gid="3552" x="369" y="142" width="128" height="32"/>
+  <object id="3" gid="3552" x="495" y="142" width="128" height="32"/>
+  <object id="4" gid="3552" x="595.333" y="142" width="128" height="32"/>
+  <object id="5" gid="3717" x="302" y="128" width="64" height="64"/>
+  <object id="6" gid="3717" x="625.333" y="126.667" width="64" height="64"/>
+  <object id="8" gid="3713" x="525.667" y="127" width="64" height="64"/>
+  <object id="9" gid="3713" x="400" y="127.667" width="64" height="64"/>
+  <object id="10" gid="3962" x="156" y="156.5" width="64" height="32"/>
+  <object id="11" gid="3556" x="580.333" y="422.333" width="128" height="64"/>
+  <object id="12" gid="3559" x="282" y="419.5" width="128" height="64"/>
+  <object id="13" gid="4007" x="258.417" y="314.75" width="32" height="64"/>
+  <object id="14" gid="4007" x="290.417" y="314.75" width="32" height="64"/>
+  <object id="15" gid="4007" x="322.604" y="314.813" width="32" height="64"/>
+  <object id="16" gid="4007" x="354.354" y="314.813" width="32" height="64"/>
+  <object id="17" gid="4007" x="386.167" y="314.804" width="32" height="64"/>
+  <object id="18" gid="4007" x="417.514" y="314.804" width="32" height="64"/>
+  <object id="19" gid="4007" x="548.118" y="315.969" width="32" height="64"/>
+  <object id="20" gid="4007" x="580.118" y="315.969" width="32" height="64"/>
+  <object id="21" gid="4007" x="612.306" y="316.031" width="32" height="64"/>
+  <object id="22" gid="4007" x="644.056" y="316.031" width="32" height="64"/>
+  <object id="23" gid="4007" x="675.868" y="316.022" width="32" height="64"/>
+  <object id="24" gid="4007" x="707.216" y="316.022" width="32" height="64"/>
+  <object id="25" gid="4059" x="303.833" y="358.333" width="32" height="32"/>
+  <object id="26" gid="4059" x="331.833" y="358.333" width="32" height="32"/>
+  <object id="27" gid="4059" x="358.5" y="358.667" width="32" height="32"/>
+  <object id="28" gid="4059" x="602.167" y="366.5" width="32" height="32"/>
+  <object id="29" gid="4059" x="631.167" y="366.5" width="32" height="32"/>
+  <object id="30" gid="4059" x="660.5" y="366.833" width="32" height="32"/>
+  <object id="31" gid="4060" x="274.833" y="381.667" width="32" height="32"/>
+  <object id="32" gid="4060" x="272.833" y="405.667" width="32" height="32"/>
+  <object id="33" gid="4057" x="389.5" y="380" width="32" height="32"/>
+  <object id="34" gid="4057" x="390.083" y="408" width="32" height="32"/>
+  <object id="35" gid="4057" x="689.5" y="381.5" width="32" height="32"/>
+  <object id="36" gid="4057" x="689.833" y="412.167" width="32" height="32"/>
+  <object id="37" gid="4060" x="571.167" y="380.5" width="32" height="32"/>
+  <object id="38" gid="4060" x="571.75" y="408.333" width="32" height="32"/>
+  <object id="39" gid="4058" x="601.833" y="442.167" width="32" height="32"/>
+  <object id="40" gid="4058" x="630.167" y="441.5" width="32" height="32"/>
+  <object id="41" gid="4058" x="658.167" y="441.833" width="32" height="32"/>
+  <object id="42" gid="4058" x="302.5" y="437" width="32" height="32"/>
+  <object id="43" gid="4058" x="331.833" y="436.333" width="32" height="32"/>
+  <object id="44" gid="4058" x="359.833" y="436.333" width="32" height="32"/>
+  <object id="45" gid="4053" x="265.333" y="316" width="64" height="32"/>
+  <object id="46" gid="4053" x="372" y="316" width="64" height="32"/>
+  <object id="47" gid="4053" x="561.917" y="317.833" width="64" height="32"/>
+  <object id="48" gid="4053" x="661.917" y="318.5" width="64" height="32"/>
+  <object id="51" gid="3629" x="222.667" y="358" width="96" height="96"/>
+  <object id="53" gid="3629" x="695" y="363.083" width="96" height="96"/>
+  <object id="76" gid="3964" x="778" y="149.667" width="64" height="32"/>
+  <object id="77" gid="3965" x="825" y="281" width="32" height="32"/>
+  <object id="78" gid="3966" x="738" y="299" width="32" height="32"/>
+  <object id="79" gid="3963" x="220.667" y="280" width="64" height="32"/>
+  <object id="80" gid="3760" x="448.667" y="394.667" width="96" height="96"/>
+  <object id="83" name="storage1" gid="4084" x="157" y="209.333" width="192" height="192"/>
+  <object id="90" name="player" gid="4097" x="74.5" y="457" width="144" height="96">
+   <properties>
+    <property name="camFollow" type="bool" value="true"/>
+    <property name="controller" type="bool" value="true"/>
+    <property name="respawnDelaySec" type="float" value="3"/>
+   </properties>
+  </object>
+  <object id="92" gid="5565" x="215.455" y="168.545" width="16" height="16">
+   <properties>
+    <property name="inside" value="storage1"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="5" name="objects1">
+  <object id="49" gid="3628" x="222.333" y="299.667" width="96" height="128"/>
+  <object id="50" gid="3628" x="695.333" y="302.667" width="96" height="128"/>
+  <object id="54" gid="3792" x="552.083" y="277.417" width="32" height="32"/>
+  <object id="55" gid="3795" x="566.333" y="273.667" width="32" height="32"/>
+  <object id="56" gid="3802" x="683.833" y="273.667" width="32" height="32"/>
+  <object id="57" gid="3814" x="655" y="387.25" width="32" height="32"/>
+  <object id="58" gid="3823" x="610.75" y="388.75" width="32" height="32"/>
+  <object id="59" gid="3781" x="425.833" y="274.167" width="32" height="32"/>
+  <object id="60" gid="3782" x="411.333" y="276.667" width="32" height="32"/>
+  <object id="61" gid="3794" x="265.833" y="275.667" width="32" height="32"/>
+  <object id="62" gid="3892" x="283.083" y="278.417" width="32" height="32"/>
+  <object id="63" gid="3894" x="352.333" y="277.167" width="32" height="32"/>
+  <object id="64" gid="3885" x="338.833" y="273.917" width="32" height="32"/>
+  <object id="65" gid="3895" x="600.333" y="277.667" width="32" height="32"/>
+  <object id="66" gid="3865" x="620.583" y="270.917" width="32" height="32"/>
+  <object id="67" gid="3895" x="359" y="381.75" width="32" height="32"/>
+  <object id="68" gid="3895" x="298" y="396" width="32" height="32"/>
+  <object id="69" gid="3889" x="295.75" y="382.25" width="32" height="32"/>
+  <object id="70" gid="3875" x="643" y="405.25" width="32" height="32"/>
+  <object id="71" gid="3811" x="319" y="378.75" width="32" height="32"/>
+  <object id="72" gid="3794" x="336.25" y="406.75" width="32" height="32"/>
+  <object id="73" gid="3896" x="625.5" y="412.75" width="32" height="32"/>
+  <object id="82" gid="3855" x="449" y="358.333" width="95" height="64"/>
+ </objectgroup>
+ <objectgroup id="6" name="trigger">
+  <object id="84" name="kolizja1" x="0.0222222" y="384">
+   <polygon points="0,0 191.978,-0.0078125 191.978,-96.0156 127.978,-96 127.978,-127.989 159.978,-128 159.978,-174 460.917,-173.954 461.009,-163.031 467.009,-163 467.165,-178.791 469.123,-187.358 467.009,-202.031 159.978,-202.031 159.978,-256.063 831.978,-256 831.978,-202.469 819.956,-202 525.009,-202.063 523.068,-186.311 524.989,-179.677 525.197,-163.063 530.947,-163.031 530.978,-174.438 555.728,-174.063 832.009,-174 831.993,-128.047 863.978,-127.957 864.021,31.9565 831.978,32 832.009,64.0625 -0.0222222,64.0222 30.4778,75.25 861.311,78.6667 907.978,6.66667 878.644,-213.333 853.311,-304 123.978,-297.333 139.978,-178.667 98.6444,-117.333 157.311,-46.6667 59.9778,-21.3333"/>
+  </object>
+  <object id="88" name="portal_to_village" x="-1.92809" y="384.098" width="3.33345" height="63.9394">
+   <properties>
+    <property name="sensor" type="bool" value="true"/>
+    <property name="spawnAt" value="entry_from_villageHouse3"/>
+    <property name="targetMap" value="village1.tmx"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="7" name="spawn">
+  <object id="86" name="entry_from_village" x="-37.4167" y="441.083" width="40.3333" height="17.3333"/>
+ </objectgroup>
+</map>

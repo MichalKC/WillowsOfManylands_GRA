@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.12.1" orientation="orthogonal" renderorder="right-down" width="30" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="12" nextobjectid="57">
+ <properties>
+  <property name="music" value="HOUSE"/>
+ </properties>
+ <tileset firstgid="1" source="objects/Houses/TiledMap Editor/back.tsx"/>
+ <tileset firstgid="118" source="objects/Houses/TiledMap Editor/Interiors_tilesets.tsx"/>
+ <tileset firstgid="3510" source="objects/Houses/TiledMap Editor/Houses-Atlas-Props-Sprites.tsx"/>
+ <tileset firstgid="4067" source="objects/Grass Land/TiledMap Editor/tilesets/Characters.tsx"/>
+ <tileset firstgid="4088" source="objects/Grass Land/TiledMap Editor/tilesets/AnimatedObjectsSprites.tsx"/>
+ <layer id="1" name="ground1" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzt0DsKgDAQBNAtRfzgDXIeiYrXClHvZeeNnCJFmCZJkULZ4lXL7MAYETEf1zYiXdDDAGMk9w/np0R2xt0GC6ywRXJ7Ob8nsg53HxxwwhXJ7eX8QxvyHnfB7xK8Ie9hK/XyhryHr9SrlFLq/17bo1nN
+  </data>
+ </layer>
+ <layer id="2" name="ground2" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzVVEuOwjAMjVQWCeK/ZsF1QPzEFnEg0DADLCuBOA+wKUt+c5VxRFCNcZqUERVYerKTxn5+blohPssaBD5WkUJUZbzOQ1wAFAElEpflfW7vH7x9qDVH9VoQtwEdQJfEPYYXIw3vjPBOIP4CTAHfJP6R9jqcHQIhhrmrPwJGEJ/BX8w+1XswZ05BnDNEOb+BH289lwyq97YfJuT48tIaSxRHwLWXsV5Xn3U0Oz0TPDs8E1cNfbdq6lHvKqFX7rkLa7LWd2ug0ulNU98GfYcGjN4sgPXSfl3zpPOnsOWHb6B3DH5rMFHp35kPlgwvtqay585JX659W40Fw7sxuneMjxTfl/4eN+aMCxHD6WM33pDwvtpserPkXWXMS//7z/D+AVFoajs=
+  </data>
+ </layer>
+ <layer id="9" name="ground3" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBg+QJ+dMJsS9bjAOjbCbErU4wLv2AizyVGP7n9Sw4NcgO5/UsODXIDuf1zhhw3QK2zQAb3CBh2QEjajYBSMglEwkgEAJisQzw==
+  </data>
+ </layer>
+ <layer id="10" name="ground4" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgeYAULA8NKIF7Fgp1NqvpVWPRgAy+A6l4C8SsW7GxS1b8i0l4NVgYGTSDWYsXOJlU9iL0azf/Y+LQC6P4nNTzIBcj+x8YnBLClLXoAbGmLHgBb2hoFo2AUjIJRgAkAdbgsyw==
+  </data>
+ </layer>
+ <objectgroup id="6" name="zones" visible="0">
+  <object id="40" name="roamingZone" x="62.8332" y="159.667" width="865.084" height="256.667"/>
+ </objectgroup>
+ <objectgroup id="3" name="objects">
+  <object id="1" gid="4016" x="640.5" y="378" width="64" height="64"/>
+  <object id="2" gid="4014" x="712.5" y="433.5" width="64" height="64"/>
+  <object id="3" gid="4021" x="162" y="351" width="128" height="96"/>
+  <object id="4" gid="4019" x="414" y="382" width="128" height="96"/>
+  <object id="5" gid="4021" x="605.5" y="309" width="128" height="96"/>
+  <object id="6" gid="4020" x="246" y="435" width="96" height="96"/>
+  <object id="7" gid="4022" x="790" y="365" width="96" height="96"/>
+  <object id="8" gid="4021" x="644.5" y="164.5" width="128" height="96"/>
+  <object id="9" gid="4022" x="788.5" y="165" width="96" height="96"/>
+  <object id="10" gid="4019" x="99.5" y="201.5" width="128" height="96"/>
+  <object id="11" gid="4036" x="226" y="189" width="64" height="32"/>
+  <object id="12" gid="4034" x="169.5" y="211" width="64" height="32"/>
+  <object id="13" gid="4030" x="754" y="166" width="32" height="32"/>
+  <object id="14" gid="3965" x="564" y="239.5" width="32" height="32"/>
+  <object id="15" gid="3966" x="645.5" y="173.5" width="32" height="32"/>
+  <object id="16" gid="3967" x="81.5" y="257" width="32" height="32"/>
+  <object id="19" gid="3658" x="70" y="241.5" width="96" height="64"/>
+  <object id="20" gid="3638" x="855" y="448.5" width="64" height="96"/>
+  <object id="21" gid="3639" x="819.5" y="464" width="64" height="63"/>
+  <object id="22" gid="3532" x="488" y="257" width="64" height="64"/>
+  <object id="24" gid="4021" x="352" y="255.5" width="128" height="96"/>
+  <object id="26" gid="3955" x="891.5" y="300.5" width="32" height="32"/>
+  <object id="27" gid="3954" x="881.5" y="309" width="32" height="32"/>
+  <object id="28" gid="3640" x="835.75" y="208.091" width="64" height="64"/>
+  <object id="29" gid="3604" x="384.667" y="448" width="32" height="64"/>
+  <object id="31" gid="3604" x="545.5" y="450" width="32" height="64"/>
+  <object id="38" name="player" gid="4067" x="407.333" y="441.333" width="144" height="96">
+   <properties>
+    <property name="camFollow" type="bool" value="true"/>
+    <property name="controller" type="bool" value="true"/>
+    <property name="respawnDelaySec" type="float" value="3"/>
+   </properties>
+  </object>
+  <object id="39" gid="4095" x="784" y="201.333" width="64" height="64">
+   <properties>
+    <property name="coinAmount" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="42" gid="4086" x="284" y="378" width="160" height="160">
+   <properties>
+    <property name="dialogue" type="bool" value="true"/>
+    <property name="displayText">I don't mind orcs.|
+Bearkin make me nervous, though.|
+Had an awkward experience once.||
+The smith taught me everything I know.|
+Well, almost everything.|
+Still working on the important parts.||
+My family owns valuable land.|
+That's what my father always said.|
+Shame nobody's seen it lately.</property>
+    <property name="respawnDelaySec" type="float" value="3"/>
+    <property name="roamZone" value="roamingZone"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="5" name="objects1"/>
+ <objectgroup id="7" name="trigger">
+  <object id="33" name="portal_to_village" x="416.481" y="637.667" width="127.538" height="4.66667">
+   <properties>
+    <property name="sensor" type="bool" value="true"/>
+    <property name="spawnAt" value="entry_from_villageHouse1"/>
+    <property name="targetMap" value="village1.tmx"/>
+   </properties>
+  </object>
+  <object id="37" name="kolizja1" x="415.75" y="448">
+   <polygon points="0,0 -63.75,-0.5 -63.5,31 -255.75,31.75 -255.75,-32 -351.75,-32.25 -351.5,-286 -64.5,-285.5 -63.5,-222.25 223.5,-222.75 224.25,-318 479.5,-318 480.25,-157.75 511.75,-157.5 512.75,0 480.25,0 480,31.75 192.25,32.25 192,-0.25 128.5,0 128.75,194.25 175.25,62.3333 488.25,60.3333 540.583,-24.6667 527.151,-196.595 528.25,-354 312.385,-360.591 79.3387,-309.058 -207.941,-324.057 -376.75,-331 -387.75,-125 -372.801,-5.18572 -322.75,32 -142.25,60 -41.9167,59.6667 -28.75,203 0.310606,200.091"/>
+  </object>
+  <object id="48" name="kolizja5" x="844.714" y="162.52">
+   <polygon points="0,0 0.0390625,24.5703 24.0361,24.5653 25.0722,26.4917 25.043,40.5625 49.0369,40.5744 49.0426,9.57371 48.0421,9.5727 47.9864,-8.52446 22.4647,-8.4375 22.3951,-5.43267 -0.013587,-5.4341"/>
+  </object>
+  <object id="49" name="kolzija6" x="826.438" y="435.125">
+   <polygon points="0.046875,0 0.0739583,21.8746 24.0514,21.8681 27.1875,22.875 51.0625,22.8736 51.0625,-1.39063 40.0986,-1.37222 40,-22.125 14.1271,-22.1024 14.0653,-9.11944 0.0625,-9.13281"/>
+  </object>
+  <object id="50" name="kolizja7" x="870.913" y="390.043">
+   <polygon points="0.078125,-0.153819 0.0723611,6.47214 -0.919416,6.44871 -0.913043,23.4478 20.0971,23.4587 20.0953,44.4387 46.0797,44.4449 46.087,26.4478 48.0899,26.4413 48.087,-17.1304 24.0843,-17.1157 24.087,-0.0434783"/>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="spawn">
+  <object id="34" name="entry_from_village" x="391.598" y="635.091" width="40.3333" height="17.3333"/>
+ </objectgroup>
+</map>

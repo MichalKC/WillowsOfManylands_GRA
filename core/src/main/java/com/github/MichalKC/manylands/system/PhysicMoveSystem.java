@@ -1,0 +1,38 @@
+package com.github.MichalKC.manylands.system;
+
+import com.badlogic.ashley.core.Entity;
+import com.badlogic.ashley.core.Family;
+import com.badlogic.ashley.systems.IteratingSystem;
+import com.badlogic.gdx.math.Vector2;
+import com.badlogic.gdx.physics.box2d.Body;
+import com.github.MichalKC.manylands.component.Dead;
+import com.github.MichalKC.manylands.component.Move;
+import com.github.MichalKC.manylands.component.Physic;
+
+public class PhysicMoveSystem extends IteratingSystem {
+    private static final Vector2 TMP_VEC2 = new Vector2();
+
+    public PhysicMoveSystem() {
+        super(Family.all(Physic.class, Move.class).get());
+    }
+
+    @Override
+    protected void processEntity(Entity entity, float deltaTime) {
+        Move move = Move.MAPPER.get(entity);
+        Body body = Physic.MAPPER.get(entity).getBody();
+        if (Dead.MAPPER.get(entity) != null) {
+            move.getDirection().setZero();
+            body.setLinearVelocity(0f, 0f);
+            return;
+        }
+
+        if (move.isRooted() || move.getDirection().isZero()) {
+            body.setLinearVelocity(0f, 0f);
+            return;
+        }
+
+        float maxSpeed = move.getMaxSpeed();
+        TMP_VEC2.set(move.getDirection()).nor();
+        body.setLinearVelocity(maxSpeed * TMP_VEC2.x, maxSpeed * TMP_VEC2.y);
+    }
+}

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.12.1" orientation="orthogonal" renderorder="right-down" width="30" height="18" tilewidth="32" tileheight="32" infinite="0" nextlayerid="13" nextobjectid="211">
+ <properties>
+  <property name="music" value="HOUSE"/>
+ </properties>
+ <tileset firstgid="1" source="objects/Houses/TiledMap Editor/back.tsx"/>
+ <tileset firstgid="118" source="objects/Houses/TiledMap Editor/Interiors_tilesets.tsx"/>
+ <tileset firstgid="3510" source="objects/Houses/TiledMap Editor/Houses-Atlas-Props-Sprites.tsx"/>
+ <tileset firstgid="4067" source="objects/Grass Land/TiledMap Editor/tilesets/Atlas-Props-Sprites.tsx"/>
+ <tileset firstgid="7051" source="objects/Grass Land/TiledMap Editor/tilesets/Characters.tsx"/>
+ <tileset firstgid="7072" source="objects/Grass Land/TiledMap Editor/tilesets/itemsShop.tsx"/>
+ <tileset firstgid="9264" source="objects/Houses/TiledMap Editor/windows_and_doors.tsx"/>
+ <layer id="1" name="ground1" width="30" height="18">
+  <data encoding="base64" compression="zlib">
+   eJwTZGBgEBzFo3gUj+JRPIpH8SimIQYAoSEj3Q==
+  </data>
+ </layer>
+ <layer id="9" name="ground2" width="30" height="18">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGwSigLQAACHAAAQ==
+  </data>
+ </layer>
+ <layer id="10" name="ground3" width="30" height="18">
+  <data encoding="base64" compression="zlib">
+   eJzllGFOwzAMhZNNTW81AVM51mAS5RBjg5sgtokdomywi4D2LDWq4zl1EeLXIn1KlDrv2W5T5y5zvBbOvSmswQZswXthx1saxGPodH5IM5zjwQiMQTEg3tIgdkxngvWVwjW4AVPFV4u3NIhQpjoL79yT7+YlWIFn8OLPfXNxls5O6DTY+wB7cACf4Asc23Udunc1C2m8drbJ7Mt6pZ/0HYcUqXlg5yVcW6u3r+ZpSImxfWd4Hrl6rT7LvBuf5jrkfAXPW6PPv9GMa+05j+M9Htpn63luP85H0eNcvVKHejRvmZRpLyS5HDRf617wHn0r92jI9yX7PEMedy1Ui3aneK7SN8bK767v7soRc7hve0rzA6jLfExcU878Hlciru7x/cug/zz3LYJ95j98q4zvCZoVBRY=
+  </data>
+ </layer>
+ <layer id="11" name="ground4" width="30" height="18">
+  <data encoding="base64" compression="zlib">
+   eJxjYBi5oJgNPyZVPbHmUANsZkPgLUTaYcyBHZsAsSkHdvUmaGo+syHwFzbizIGBlVwMDKugeDUX8X6dA1Q7Fw3PI0H/QNn7Eqj2FRS/pqO96OABI4QmFE93gHbcRcP3KLB3FAx9UMfOwFCPhO3Y6WOvPBqGuaMBiBuBuAWIW5HcYovmTmzudQGyXaFmwHArHv+guwEZE1LzF61MZmPHbQY9gAIaTU97YRgEALrvQXA=
+  </data>
+ </layer>
+ <layer id="12" name="ground5" width="30" height="18">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFlIJvKgwM31Xob6+YKgODuCr97TUD2mk+APaOglEwCkbBKBi6AABozQNk
+  </data>
+ </layer>
+ <objectgroup id="2" name="zones">
+  <object id="200" name="roamingZone" x="99.4997" y="159.167" width="824.334" height="290.333"/>
+ </objectgroup>
+ <objectgroup id="3" name="objects">
+  <object id="126" gid="3918" x="503.167" y="203.167" width="32" height="64"/>
+  <object id="129" gid="3923" x="520.583" y="181.167" width="32" height="64"/>
+  <object id="130" gid="3916" x="488.5" y="182.083" width="32" height="64"/>
+  <object id="131" gid="3547" x="673.25" y="226" width="64" height="96"/>
+  <object id="133" gid="3581" x="899" y="272" width="32" height="128"/>
+  <object id="134" gid="3723" x="774.167" y="133.833" width="32" height="32"/>
+  <object id="135" gid="3726" x="559.167" y="137.5" width="64" height="32"/>
+  <object id="136" gid="3779" x="640.5" y="173.833" width="32" height="32"/>
+  <object id="137" gid="3779" x="736.667" y="173.667" width="32" height="32"/>
+  <object id="152" gid="3922" x="893.333" y="195.667" width="32" height="64"/>
+  <object id="153" gid="3918" x="864" y="180" width="32" height="64"/>
+  <object id="155" gid="3759" x="347.333" y="320.333" width="128" height="128"/>
+  <object id="156" gid="3604" x="858.5" y="440" width="32" height="64"/>
+  <object id="157" gid="3557" x="543" y="399" width="128" height="64"/>
+  <object id="162" gid="4059" x="572.667" y="345.5" width="32" height="32"/>
+  <object id="163" gid="4059" x="609.333" y="337.167" width="32" height="32"/>
+  <object id="164" gid="4060" x="530.333" y="377.5" width="32" height="32"/>
+  <object id="165" gid="4057" x="651.667" y="381.5" width="32" height="32"/>
+  <object id="166" gid="3512" x="145.667" y="153" width="32" height="64"/>
+  <object id="179" gid="3902" x="193.045" y="186.977" width="64" height="64"/>
+  <object id="180" gid="3900" x="92.5455" y="235.977" width="32" height="96"/>
+  <object id="181" gid="3568" x="285.295" y="190.227" width="64" height="96"/>
+  <object id="182" gid="3727" x="194.545" y="128.727" width="64" height="32"/>
+  <object id="183" gid="4057" x="122.045" y="210.227" width="32" height="32"/>
+  <object id="184" gid="4058" x="210.545" y="196.727" width="32" height="32"/>
+  <object id="185" gid="3899" x="92.3788" y="404.394" width="32" height="96"/>
+  <object id="191" gid="3579" x="801.667" y="190.333" width="64" height="96"/>
+  <object id="196" name="player" gid="7051" x="699.333" y="406" width="144" height="96">
+   <properties>
+    <property name="camFollow" type="bool" value="true"/>
+    <property name="controller" type="bool" value="true"/>
+    <property name="respawnDelaySec" type="float" value="3"/>
+   </properties>
+  </object>
+  <object id="198" gid="7242" x="174.455" y="178.977" width="16" height="16"/>
+  <object id="209" gid="7063" x="471.333" y="355.333" width="160" height="160">
+   <properties>
+    <property name="dialogue" type="bool" value="true"/>
+    <property name="displayText">I spend most evenings writing.|
+Nothing important, just little stories.|
+Oh dear, the flowers need water again.||
+I believe someone at the docks knows your name. Or wanted to?|
+I'm not entirely sure which.||
+My husband complains about the orcs every day.|
+I think he'd miss them if they left.|
+He'd certainly run out of topics.</property>
+    <property name="respawnDelaySec" type="float" value="3"/>
+    <property name="roamZone" value="roamingZone"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="4" name="objects1">
+  <object id="210" gid="3792" x="743.455" y="163.455" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup id="5" name="trigger">
+  <object id="189" name="kolizja1" x="671.909" y="576.091">
+   <polygon points="0,0 0.0909091,-128.113 -191.909,-128.091 -191.909,-192.091 -319.909,-192.091 -319.909,-128.091 -447.909,-128.091 -447.909,-160.091 -575.909,-160.091 -575.909,-416.091 -319.909,-416.091 -319.909,-288.091 -298.784,-288.091 -298.597,-274.653 -297.159,-273.716 -222.605,-273.743 -221.605,-274.83 -221.597,-288.028 -191.909,-288.091 -191.909,-416.091 256.091,-416.091 256.091,-288.091 224.091,-288.091 224.091,-128.091 96.0909,-128.091 96.0909,-0.0909091 125.591,-102.591 250.091,-112.591 254.591,-248.091 277.424,-290.758 282.424,-519.758 -605.242,-522.091 -605.242,-135.424 -463.909,-90.7576 -286.576,-88.7576 -227.909,-141.424 -177.909,-80.0909 -53.9091,-86.0909 -9.24242,-2.75758"/>
+  </object>
+  <object id="194" name="portal_to_village" x="672.043" y="575.148" width="95.9538" height="1.74416">
+   <properties>
+    <property name="sensor" type="bool" value="true"/>
+    <property name="spawnAt" value="entry_from_villageHouse2"/>
+    <property name="targetMap" value="village1.tmx"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="6" name="spawn">
+  <object id="193" name="entry_from_village" x="636.083" y="572.583" width="40.3333" height="17.3333"/>
+ </objectgroup>
+</map>

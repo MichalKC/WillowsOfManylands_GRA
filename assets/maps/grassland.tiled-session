@@ -1,0 +1,821 @@
+{
+    "activeFile": "maingrass.tmx",
+    "expandedProjectPaths": [
+        "objects/The Village",
+        "objects/Grass Land 2",
+        "objects/Grass Land/TiledMap Editor/tilesets",
+        ".",
+        "objects/The Village/TiledMap Editor",
+        "objects",
+        "objects/Cemetery",
+        "objects/Grass Land 2/TiledMap Editor/Tilesets",
+        "objects/Grass Land/TiledMap Editor",
+        "objects/Houses/TiledMap Editor",
+        "C:/Users/mkcci/Desktop/test",
+        "objects/Cemetery/TiledMap Editor",
+        "objects/Grass Land",
+        "objects/Grass Land 2/TiledMap Editor",
+        "objects/The Village/TiledMap Editor/tilesets",
+        "objects/Houses",
+        "objects/Cemetery/TiledMap Editor/Tilesets"
+    ],
+    "fileStates": {
+        ":/automap-tiles.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/mkcci/Desktop/Graphics/The Village/Epic RPG World - The Village V2.0/TiledMap Editor/sample map.tmx": {
+            "scale": 0.75,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1328.6666666666665,
+                "y": 576.6666666666667
+            }
+        },
+        "C:/Users/mkcci/Desktop/Graphics/The Village/Epic RPG World - The Village V2.0/TiledMap Editor/tilesets/Free_Premade_houses.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/mkcci/Desktop/Graphics/The Village/Epic RPG World - The Village V2.0/TiledMap Editor/tilesets/props(as sprites).tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/mkcci/Desktop/Graphics/The Village/Epic RPG World - The Village V2.0/TiledMap Editor/tilesets/props.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/mkcci/Desktop/Graphics/The Village/Epic RPG World - The Village V2.0/TiledMap Editor/tilesets/tilesets-village.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/mkcci/Desktop/STARE/Graphics/Grass Land/EPIC RPG World Pack - Grass Land V. 1.6/TiledMap Editor/tilesets/Animated water tiles-transp.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/mkcci/Desktop/STARE/Graphics/Grass Land/EPIC RPG World Pack - Grass Land V. 1.6/TiledMap Editor/tilesets/Animated water tiles.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/mkcci/Desktop/STARE/Graphics/Grass Land/EPIC RPG World Pack - Grass Land V. 1.6/TiledMap Editor/tilesets/Atlas-Props-Sprites.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/mkcci/Desktop/STARE/Graphics/Grass Land/EPIC RPG World Pack - Grass Land V. 1.6/TiledMap Editor/tilesets/Atlas-Props.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/mkcci/Desktop/STARE/Graphics/Grass Land/EPIC RPG World Pack - Grass Land V. 1.6/TiledMap Editor/tilesets/Grass Land - tileset-cliff.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/mkcci/Desktop/STARE/Graphics/Grass Land/EPIC RPG World Pack - Grass Land V. 1.6/TiledMap Editor/tilesets/Grass Land - tileset-transp-cliff.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/mkcci/Desktop/STARE/Graphics/Grass Land/EPIC RPG World Pack - Grass Land V. 1.6/TiledMap Editor/tilesets/Terrain.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/mkcci/Desktop/STARE/Maps1.0/TestMap.tmx": {
+            "scale": 0.49874999999999997,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 800.0000000000001,
+                "y": 798.997493734336
+            }
+        },
+        "C:/Users/mkcci/Desktop/WillowsOfManylands/assets/graphics/Grass Land/EPIC RPG World Pack - Grass Land V. 1.6/TiledMap Editor/tilesets/Animated water tiles-transp.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1.5
+        },
+        "C:/Users/mkcci/Desktop/WillowsOfManylands/assets/graphics/Grass Land/EPIC RPG World Pack - Grass Land V. 1.6/TiledMap Editor/tilesets/Animated water tiles.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1
+        },
+        "C:/Users/mkcci/Desktop/WillowsOfManylands/assets/graphics/Grass Land/EPIC RPG World Pack - Grass Land V. 1.6/TiledMap Editor/tilesets/Atlas-Props-Sprites.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 0.125,
+            "scaleInEditor": 0.12
+        },
+        "C:/Users/mkcci/Desktop/WillowsOfManylands/assets/graphics/Grass Land/EPIC RPG World Pack - Grass Land V. 1.6/TiledMap Editor/tilesets/Atlas-Props.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 0.75
+        },
+        "C:/Users/mkcci/Desktop/WillowsOfManylands/assets/graphics/Grass Land/EPIC RPG World Pack - Grass Land V. 1.6/TiledMap Editor/tilesets/Grass Land - tileset-cliff.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 0.75
+        },
+        "C:/Users/mkcci/Desktop/WillowsOfManylands/assets/graphics/Grass Land/EPIC RPG World Pack - Grass Land V. 1.6/TiledMap Editor/tilesets/Grass Land - tileset-transp-cliff.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1
+        },
+        "C:/Users/mkcci/Desktop/WillowsOfManylands/assets/graphics/Grass Land/EPIC RPG World Pack - Grass Land V. 1.6/TiledMap Editor/tilesets/Terrain.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 0.5,
+            "scaleInEditor": 0.12
+        },
+        "C:/Users/mkcci/Desktop/WillowsOfManylands/assets/graphics/Grass Land/EPIC RPG World Pack - Grass Land V. 1.6/TiledMap Editor/tilesets/WARRIO~1.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 0.5,
+            "scaleInEditor": 1
+        },
+        "C:/Users/mkcci/Desktop/WillowsOfManylands/assets/graphics/Grass Land/TiledMap Editor/tilesets/Animated water tiles-transp.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "C:/Users/mkcci/Desktop/WillowsOfManylands/assets/graphics/Grass Land/TiledMap Editor/tilesets/Animated water tiles.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/mkcci/Desktop/WillowsOfManylands/assets/graphics/Grass Land/TiledMap Editor/tilesets/Atlas-Props-Sprites.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 0.125,
+            "scaleInEditor": 0.12
+        },
+        "C:/Users/mkcci/Desktop/WillowsOfManylands/assets/graphics/Grass Land/TiledMap Editor/tilesets/Atlas-Props.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "C:/Users/mkcci/Desktop/WillowsOfManylands/assets/graphics/Grass Land/TiledMap Editor/tilesets/Grass Land - tileset-cliff.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1
+        },
+        "C:/Users/mkcci/Desktop/WillowsOfManylands/assets/graphics/Grass Land/TiledMap Editor/tilesets/Grass Land - tileset-transp-cliff.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/mkcci/Desktop/WillowsOfManylands/assets/graphics/Grass Land/TiledMap Editor/tilesets/Terrain.tsx": {
+            "scaleInDock": 0.75
+        },
+        "C:/Users/mkcci/Desktop/test/bez nazwy.tmx": {
+            "scale": 0.81640625,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 480.1531100478469,
+                "y": 320.30622009569373
+            }
+        },
+        "blacksmith_place.tmx": {
+            "expandedObjectLayers": [
+                4,
+                6,
+                7,
+                5
+            ],
+            "scale": 1.5,
+            "selectedLayer": 6,
+            "viewCenter": {
+                "x": 361.66666666666663,
+                "y": 239.66666666666663
+            }
+        },
+        "bridgeToCemetery.tmx": {
+            "expandedObjectLayers": [
+                4,
+                5,
+                2
+            ],
+            "scale": 1.5,
+            "selectedLayer": 7,
+            "viewCenter": {
+                "x": 293.66666666666663,
+                "y": 153.66666666666663
+            }
+        },
+        "main.tmx": {
+            "scale": 1.246875,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 480.00000000000006,
+                "y": 319.5989974937344
+            }
+        },
+        "maingrass.tmx": {
+            "expandedObjectLayers": [
+                11,
+                3,
+                7,
+                5,
+                12
+            ],
+            "scale": 1.5,
+            "selectedLayer": 12,
+            "viewCenter": {
+                "x": 1135,
+                "y": 799.6666666666666
+            }
+        },
+        "maingrass2.tmx": {
+            "expandedObjectLayers": [
+                3,
+                6,
+                9,
+                5,
+                2
+            ],
+            "scale": 1.5,
+            "selectedLayer": 9,
+            "viewCenter": {
+                "x": 696.3333333333333,
+                "y": 430.99999999999994
+            }
+        },
+        "objects/Cemetery/TiledMap Editor/Tilesets/Terrain - cemetery.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1.5,
+            "scaleInEditor": 1
+        },
+        "objects/Cemetery/TiledMap Editor/Tilesets/atlas-Props.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "objects/Cemetery/TiledMap Editor/Tilesets/atlas-props-sprites.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 0.125,
+            "scaleInEditor": 1
+        },
+        "objects/Cemetery/TiledMap Editor/Tilesets/fences.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 2,
+            "scaleInEditor": 1
+        },
+        "objects/Cemetery/TiledMap Editor/Tilesets/hole - transparency.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "objects/Cemetery/TiledMap Editor/Tilesets/hole-1.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "objects/Cemetery/TiledMap Editor/Tilesets/hole-2.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "objects/Cemetery/TiledMap Editor/Tilesets/hole-3.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "objects/Cemetery/TiledMap Editor/Tilesets/stone fences.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 3
+        },
+        "objects/Cemetery/TiledMap Editor/Tilesets/wall 1 and 2 mixed.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "objects/Cemetery/TiledMap Editor/Tilesets/wall 1.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "objects/Cemetery/TiledMap Editor/Tilesets/wall 2.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "objects/Grass Land 2/TiledMap Editor/Sample map - Copia.tmx": {
+            "scale": 0.75,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 356,
+                "y": 301.99999999999994
+            }
+        },
+        "objects/Grass Land 2/TiledMap Editor/Sample map.tmx": {
+            "scale": 0.75,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 400,
+                "y": 397.99999999999994
+            }
+        },
+        "objects/Grass Land 2/TiledMap Editor/TiledMap Editor Example - grass land 2.0.tmx": {
+            "scale": 0.26978515625,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1278.7953377253314,
+                "y": 1280.6486643017447
+            }
+        },
+        "objects/Grass Land 2/TiledMap Editor/Tilesets/Atlas-Props-sheet1-sprites.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 0.25,
+            "scaleInEditor": 1
+        },
+        "objects/Grass Land 2/TiledMap Editor/Tilesets/Atlas-Props-sheet1.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 0.5
+        },
+        "objects/Grass Land 2/TiledMap Editor/Tilesets/Atlas-Props-sheet2-sprites.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 0.33,
+            "scaleInEditor": 1
+        },
+        "objects/Grass Land 2/TiledMap Editor/Tilesets/Atlas-Props-sheet2.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "objects/Grass Land 2/TiledMap Editor/Tilesets/Atlas-Props-sheet3.tsx": {
+            "scaleInDock": 1
+        },
+        "objects/Grass Land 2/TiledMap Editor/Tilesets/Atlas-Props-sheet4-sprites.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "objects/Grass Land 2/TiledMap Editor/Tilesets/Atlas-Props-sheet4.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 3
+        },
+        "objects/Grass Land 2/TiledMap Editor/Tilesets/Atlas-props-sheet3-sprites.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 0.25,
+            "scaleInEditor": 1
+        },
+        "objects/Grass Land 2/TiledMap Editor/Tilesets/Beach-transition tiles between coast platform and beach - godot.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "objects/Grass Land 2/TiledMap Editor/Tilesets/Beach-transition tiles between coast platform and beach.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "objects/Grass Land 2/TiledMap Editor/Tilesets/Items.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "objects/Grass Land 2/TiledMap Editor/Tilesets/Tileset - wall1 - transparency.tsx": {
+            "scaleInDock": 3,
+            "scaleInEditor": 1
+        },
+        "objects/Grass Land 2/TiledMap Editor/Tilesets/Tileset - wall1.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "objects/Grass Land 2/TiledMap Editor/Tilesets/Tileset-Terrain-new grass - transparency.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 0.75
+        },
+        "objects/Grass Land 2/TiledMap Editor/Tilesets/Tileset-Terrain-new grass.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 0.33,
+            "scaleInEditor": 1
+        },
+        "objects/Grass Land 2/TiledMap Editor/Tilesets/beach - no thick foam - Godot.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "objects/Grass Land 2/TiledMap Editor/Tilesets/beach - no thick foam.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "objects/Grass Land 2/TiledMap Editor/Tilesets/beach - with thick foam - Godot.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "objects/Grass Land 2/TiledMap Editor/Tilesets/beach - with thick foam.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "objects/Grass Land 2/TiledMap Editor/Tilesets/fence-curved.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "objects/Grass Land 2/TiledMap Editor/Tilesets/fence-straight.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "objects/Grass Land 2/TiledMap Editor/Tilesets/fertilized soil.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "objects/Grass Land 2/TiledMap Editor/Tilesets/gl2-Tileset - wall 1-3tiles-transp.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "objects/Grass Land 2/TiledMap Editor/Tilesets/gl2-Tileset - wall 1-3tiles.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "objects/Grass Land 2/TiledMap Editor/Tilesets/hole1.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "objects/Grass Land 2/TiledMap Editor/Tilesets/hole2.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "objects/Grass Land 2/TiledMap Editor/Tilesets/hole3.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "objects/Grass Land 2/TiledMap Editor/Tilesets/platform - grass - coast - godot.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "objects/Grass Land 2/TiledMap Editor/Tilesets/platform - grass - coast.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "objects/Grass Land 2/TiledMap Editor/Tilesets/platform - grass to water - godot.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "objects/Grass Land 2/TiledMap Editor/Tilesets/platform - grass to water.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "objects/Grass Land 2/TiledMap Editor/Tilesets/platform - grass(transparency) - coast-godot.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "objects/Grass Land 2/TiledMap Editor/Tilesets/platform - grass(transparency) - coast.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 0.75
+        },
+        "objects/Grass Land 2/TiledMap Editor/Tilesets/platform - grass(transparency) to water - godot.tsx": {
+            "scaleInDock": 1.5,
+            "scaleInEditor": 1
+        },
+        "objects/Grass Land 2/TiledMap Editor/Tilesets/platform - grass(transparency) to water.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "objects/Grass Land 2/TiledMap Editor/Tilesets/platform - water to grass - river orientation-godot.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "objects/Grass Land 2/TiledMap Editor/Tilesets/platform - water to grass - river orientation.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "objects/Grass Land 2/TiledMap Editor/Tilesets/platform - water to grass(transparency) - river orientation-godot.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "objects/Grass Land 2/TiledMap Editor/Tilesets/platform - water to grass(transparency) - river orientation.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "objects/Grass Land/TiledMap Editor/rules/cliff-rule0-erases all generated tiles and resets them to their initial state.tmx": {
+            "scale": 0.280546875,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 639.821776663882,
+                "y": 641.6040100250627
+            }
+        },
+        "objects/Grass Land/TiledMap Editor/tilesets/Animated water tiles-transp.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "objects/Grass Land/TiledMap Editor/tilesets/Animated water tiles.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "objects/Grass Land/TiledMap Editor/tilesets/AnimatedObjectsSprites.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 0.33,
+            "scaleInEditor": 1
+        },
+        "objects/Grass Land/TiledMap Editor/tilesets/Atlas-Props-Sprites.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 0.125,
+            "scaleInEditor": 1
+        },
+        "objects/Grass Land/TiledMap Editor/tilesets/Atlas-Props-Sprites2.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1,
+            "scaleInEditor": 0.12
+        },
+        "objects/Grass Land/TiledMap Editor/tilesets/Atlas-Props.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 0.5,
+            "scaleInEditor": 0.12
+        },
+        "objects/Grass Land/TiledMap Editor/tilesets/Characters.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 0.5,
+            "scaleInEditor": 1
+        },
+        "objects/Grass Land/TiledMap Editor/tilesets/Grass Land - tileset-cliff.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "objects/Grass Land/TiledMap Editor/tilesets/Grass Land - tileset-transp-cliff.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "objects/Grass Land/TiledMap Editor/tilesets/ItemsShop.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 2,
+            "scaleInEditor": 1
+        },
+        "objects/Grass Land/TiledMap Editor/tilesets/Terrain.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "objects/Grass Land/TiledMap Editor/tilesets/itemsShop.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 3,
+            "scaleInEditor": 1
+        },
+        "objects/Houses/TiledMap Editor/Doors_Windows.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "objects/Houses/TiledMap Editor/Houses-Atlas-Props-Sprites.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 0.5,
+            "scaleInEditor": 1
+        },
+        "objects/Houses/TiledMap Editor/Interiors_tilesets.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "objects/Houses/TiledMap Editor/back.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "objects/Houses/TiledMap Editor/windows_and_doors.tsx": {
+            "scaleInDock": 1.5,
+            "scaleInEditor": 1
+        },
+        "objects/Houses/TiledMap Editor/windows_and_doors2.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "objects/The Village/TiledMap Editor/tilesets/Free_Premade_houses.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "objects/The Village/TiledMap Editor/tilesets/Premade_houses.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "objects/The Village/TiledMap Editor/tilesets/Premade_houses2.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "objects/The Village/TiledMap Editor/tilesets/Premade_houses3.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "objects/The Village/TiledMap Editor/tilesets/Update 1.2 - recolored roof.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "objects/The Village/TiledMap Editor/tilesets/VillageHouses.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 0.25,
+            "scaleInEditor": 1
+        },
+        "objects/The Village/TiledMap Editor/tilesets/house-decorations.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "objects/The Village/TiledMap Editor/tilesets/props(as sprites).tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 0.25,
+            "scaleInEditor": 1
+        },
+        "objects/The Village/TiledMap Editor/tilesets/props.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "objects/The Village/TiledMap Editor/tilesets/roofs1.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "objects/The Village/TiledMap Editor/tilesets/roofs1_intersections_wall-width10.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "objects/The Village/TiledMap Editor/tilesets/roofs2.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "objects/The Village/TiledMap Editor/tilesets/roofs2_intersections_wall-width10.tsx": {
+            "scaleInDock": 0.5,
+            "scaleInEditor": 1
+        },
+        "objects/The Village/TiledMap Editor/tilesets/side_roofs_details_extrusion.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "objects/The Village/TiledMap Editor/tilesets/side_roofs_details_extrusion2.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "objects/The Village/TiledMap Editor/tilesets/tilesets-village.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "objects/The Village/TiledMap Editor/tilesets/walls-floor1.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "objects/The Village/TiledMap Editor/tilesets/walls1.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "objects/The Village/TiledMap Editor/tilesets/walls2.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "objects/The Village/TiledMap Editor/tilesets/walls3.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "objects/The Village/TiledMap Editor/tilesets/walls4.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "objects/The Village/TiledMap Editor/tilesets/walls5.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "village1.tmx": {
+            "expandedObjectLayers": [
+                4,
+                3,
+                6,
+                5,
+                2
+            ],
+            "scale": 0.5,
+            "selectedLayer": 11,
+            "viewCenter": {
+                "x": 1193,
+                "y": 1193
+            }
+        },
+        "villageHouse1.tmx": {
+            "expandedObjectLayers": [
+                8,
+                3,
+                6,
+                7
+            ],
+            "scale": 1.5,
+            "selectedLayer": 7,
+            "viewCenter": {
+                "x": 521.6666666666667,
+                "y": 319.66666666666663
+            }
+        },
+        "villageHouse2.tmx": {
+            "expandedObjectLayers": [
+                4,
+                3,
+                6,
+                5,
+                2
+            ],
+            "scale": 1,
+            "selectedLayer": 7,
+            "viewCenter": {
+                "x": 542.5,
+                "y": 287.5
+            }
+        },
+        "villageHouse3.tmx": {
+            "expandedObjectLayers": [
+                4,
+                6,
+                7,
+                5
+            ],
+            "scale": 2,
+            "selectedLayer": 6,
+            "viewCenter": {
+                "x": 382.75,
+                "y": 226.25
+            }
+        },
+        "villageHouse4.tmx": {
+            "expandedObjectLayers": [
+                4,
+                3,
+                6,
+                5
+            ],
+            "scale": 2,
+            "selectedLayer": 5,
+            "viewCenter": {
+                "x": 411.75,
+                "y": 206.75
+            }
+        },
+        "villageHouse5.tmx": {
+            "expandedObjectLayers": [
+                8,
+                6,
+                7,
+                9
+            ],
+            "scale": 1.5,
+            "selectedLayer": 5,
+            "viewCenter": {
+                "x": 261,
+                "y": 237.66666666666663
+            }
+        },
+        "villageHouse6.tmx": {
+            "expandedObjectLayers": [
+                4,
+                6,
+                7
+            ],
+            "scale": 2,
+            "selectedLayer": 8,
+            "viewCenter": {
+                "x": 399.25,
+                "y": 288.25
+            }
+        }
+    },
+    "last.externalTilesetPath": "C:/Users/mkcci/Desktop/WillowsOfManylands/assets/maps/objects/Grass Land/TiledMap Editor/tilesets",
+    "last.imagePath": "C:/Users/mkcci/Desktop/WillowsOfManylands/assets/maps/objects/Grass Land/Props",
+    "map.height": 15,
+    "map.lastUsedFormat": "tmx",
+    "map.layerDataFormat": "3",
+    "map.width": 20,
+    "mapScene.enableWorlds": true,
+    "openFiles": [
+        "maingrass.tmx",
+        "maingrass2.tmx",
+        "village1.tmx",
+        "blacksmith_place.tmx",
+        "villageHouse1.tmx",
+        "villageHouse2.tmx",
+        "villageHouse3.tmx",
+        "villageHouse4.tmx",
+        "villageHouse5.tmx",
+        "villageHouse6.tmx",
+        "bridgeToCemetery.tmx",
+        "objects/Grass Land/TiledMap Editor/tilesets/Characters.tsx",
+        "objects/Grass Land/TiledMap Editor/tilesets/itemsShop.tsx",
+        "objects/Grass Land 2/TiledMap Editor/Tilesets/Items.tsx",
+        "objects/Grass Land/TiledMap Editor/tilesets/AnimatedObjectsSprites.tsx",
+        "objects/Grass Land/TiledMap Editor/tilesets/Atlas-Props-Sprites.tsx",
+        "objects/Houses/TiledMap Editor/Houses-Atlas-Props-Sprites.tsx",
+        "objects/Grass Land 2/TiledMap Editor/Tilesets/Atlas-Props-sheet1-sprites.tsx",
+        "objects/The Village/TiledMap Editor/tilesets/props(as sprites).tsx",
+        "objects/Grass Land 2/TiledMap Editor/Tilesets/Atlas-Props-sheet2-sprites.tsx",
+        "objects/The Village/TiledMap Editor/tilesets/VillageHouses.tsx",
+        "objects/Grass Land 2/TiledMap Editor/Tilesets/Atlas-Props-sheet4-sprites.tsx",
+        "objects/Grass Land 2/TiledMap Editor/Tilesets/Atlas-props-sheet3-sprites.tsx",
+        "objects/Cemetery/TiledMap Editor/Tilesets/atlas-props-sprites.tsx"
+    ],
+    "project": "grassland.tiled-project",
+    "property.type": "float",
+    "recentFiles": [
+        "objects/Cemetery/TiledMap Editor/Tilesets/atlas-props-sprites.tsx",
+        "objects/Grass Land 2/TiledMap Editor/Tilesets/Atlas-props-sheet3-sprites.tsx",
+        "objects/Grass Land 2/TiledMap Editor/Tilesets/Atlas-Props-sheet4-sprites.tsx",
+        "objects/The Village/TiledMap Editor/tilesets/VillageHouses.tsx",
+        "objects/Grass Land 2/TiledMap Editor/Tilesets/Atlas-Props-sheet2-sprites.tsx",
+        "objects/The Village/TiledMap Editor/tilesets/props(as sprites).tsx",
+        "objects/Grass Land 2/TiledMap Editor/Tilesets/Atlas-Props-sheet1-sprites.tsx",
+        "objects/Houses/TiledMap Editor/Houses-Atlas-Props-Sprites.tsx",
+        "objects/Grass Land/TiledMap Editor/tilesets/Atlas-Props-Sprites.tsx",
+        "objects/Grass Land/TiledMap Editor/tilesets/AnimatedObjectsSprites.tsx",
+        "objects/Grass Land 2/TiledMap Editor/Tilesets/Items.tsx",
+        "objects/Grass Land/TiledMap Editor/tilesets/itemsShop.tsx"
+    ],
+    "textEdit.monospace": true,
+    "tileset.lastUsedFilter": "Tiled tileset files (*.tsx *.xml)",
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.type": 0
+}

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.12.1" orientation="orthogonal" renderorder="right-down" width="20" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="55">
+ <properties>
+  <property name="music" value="HOUSE"/>
+ </properties>
+ <tileset firstgid="1" source="objects/Houses/TiledMap Editor/back.tsx"/>
+ <tileset firstgid="118" source="objects/Houses/TiledMap Editor/Interiors_tilesets.tsx"/>
+ <tileset firstgid="3510" source="objects/Houses/TiledMap Editor/Houses-Atlas-Props-Sprites.tsx"/>
+ <tileset firstgid="4067" source="objects/Grass Land/TiledMap Editor/tilesets/Characters.tsx"/>
+ <tileset firstgid="4088" source="objects/Grass Land/TiledMap Editor/tilesets/itemsShop.tsx"/>
+ <tileset firstgid="6280" source="objects/Houses/TiledMap Editor/windows_and_doors.tsx"/>
+ <layer id="1" name="ground1" width="20" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxzY2BgcBvFo3gUj+IhgAH2wFIJ
+  </data>
+ </layer>
+ <layer id="2" name="ground2" width="20" height="15">
+  <data encoding="base64" compression="zlib">
+   eJzVkktOxDAMhi01VXOG9LUG9rMYaXiXQ7RngQKa4VZlB5fgcRMQf0iium7CnkqfYtn+/7pOif7nc5cRjeCenQ/gEWzA3seBQ7bWjkx7qoi2CTaR3Avze87iuiNNdAxO9DIONZ6TfrwW9O8F0Qf4LJaxrL0Vaz9eD2ej48haBXI1+33Dz2hHKbR9wtPS+n7r18HvBuyU273xPUNCJ3OVnjWl3+kTuPW7532pef6a0+7+FT6TcnF4T6x/SOyiYTp7J52fj+sa8R0xffA2Im/nCn61uIOezWXEvbSsT844qVkj4fPVzCvcKff6/Wdyoi/4neM8y915AS7BFbhmpPKcDvwAr09H9A==
+  </data>
+ </layer>
+ <layer id="3" name="ground3" width="20" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFQwXcYmFguA3Ed4D4LhDfA+L7LBC5WRwMDLOBeA4Qz+UYWHeOglFAKwAADEEH0g==
+  </data>
+ </layer>
+ <layer id="4" name="ground4" width="20" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgF1ATbJBgYtktQz7xrQLOuU8G82+yUmzEKqANG44J8AACwVAU/
+  </data>
+ </layer>
+ <objectgroup id="5" name="zones"/>
+ <objectgroup id="6" name="objects">
+  <object id="1" gid="4064" x="224" y="419.333" width="96" height="96"/>
+  <object id="3" gid="4066" x="385.833" y="419.667" width="96" height="96"/>
+  <object id="4" gid="4061" x="207" y="287.5" width="128" height="32"/>
+  <object id="5" gid="4061" x="370" y="291" width="128" height="32"/>
+  <object id="6" gid="4054" x="207.5" y="310" width="128" height="32"/>
+  <object id="7" gid="4054" x="370.333" y="311.667" width="128" height="32"/>
+  <object id="8" gid="4008" x="223.818" y="199.455" width="32" height="64"/>
+  <object id="9" gid="4008" x="255.364" y="199.455" width="32" height="64"/>
+  <object id="10" gid="4008" x="383.909" y="200.455" width="32" height="64"/>
+  <object id="11" gid="4008" x="352.043" y="200.435" width="32" height="64"/>
+  <object id="12" gid="4026" x="292.667" y="178.667" width="64" height="128"/>
+  <object id="14" gid="3976" x="332" y="133.333" width="96" height="64"/>
+  <object id="15" gid="3972" x="209.333" y="126.333" width="96" height="32"/>
+  <object id="16" gid="3949" x="135.333" y="211" width="32" height="32"/>
+  <object id="17" gid="3947" x="146" y="217" width="32" height="32"/>
+  <object id="18" gid="3924" x="80.6667" y="218" width="32" height="64"/>
+  <object id="19" gid="3906" x="64.3333" y="241" width="32" height="64"/>
+  <object id="20" gid="3535" x="415" y="216.5" width="32" height="64"/>
+  <object id="21" gid="3848" x="499.091" y="166.273" width="32" height="96"/>
+  <object id="22" gid="3845" x="540.667" y="167.333" width="32" height="96"/>
+  <object id="23" gid="3846" x="453.667" y="167" width="32" height="96"/>
+  <object id="36" gid="3664" x="541" y="368.25" width="64" height="64"/>
+  <object id="46" name="player" gid="4067" x="283.5" y="363.5" width="144" height="96">
+   <properties>
+    <property name="camFollow" type="bool" value="true"/>
+    <property name="controller" type="bool" value="true"/>
+    <property name="respawnDelaySec" type="float" value="3"/>
+   </properties>
+  </object>
+  <object id="51" gid="4579" x="540.545" y="176.182" width="16" height="16"/>
+  <object id="53" gid="4055" x="64.1023" y="337.091" width="32" height="96"/>
+  <object id="54" gid="3597" x="26.7576" y="446.303" width="32" height="128"/>
+ </objectgroup>
+ <objectgroup id="7" name="objects1">
+  <object id="25" gid="3863" x="222.75" y="149.5" width="32" height="32"/>
+  <object id="26" gid="3895" x="246.5" y="162.5" width="32" height="32"/>
+  <object id="27" gid="3825" x="348.75" y="157" width="32" height="32"/>
+  <object id="29" gid="3833" x="264.25" y="169.5" width="32" height="32"/>
+  <object id="30" gid="3836" x="268.667" y="276" width="32" height="32"/>
+  <object id="31" gid="3860" x="394.333" y="274.667" width="32" height="32"/>
+  <object id="32" gid="3769" x="445.667" y="274.333" width="32" height="32"/>
+  <object id="38" gid="3824" x="413.75" y="282.75" width="32" height="32"/>
+  <object id="39" gid="3840" x="240.75" y="277.75" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup id="8" name="trigger">
+  <object id="40" name="kolizja1" x="63.8182" y="351.636">
+   <polygon points="0.217391,0.347826 -31.777,0.365057 -31.7926,96.3849 544.183,96.3675 544.182,64.3324 576.182,64.4071 554.432,115.364 278.932,115.114 7.18182,114.614 -51.3182,110.614 -44.5682,-48.6364 -37.8182,-98.1364 -21.0682,-130.386 -11.8182,-256.136 61.6818,-275.636 165.182,-295.636 369.182,-291.636 531.182,-276.136 535.682,-170.136 539.682,-65.1364 560.182,-40.6364 573.818,4.90909 576.091,32.3636 544.182,32.4545 544.181,-31.6325 512.186,-31.6325 512.2,-191.643 384.182,-191.636 384.193,-159.633 352.19,-159.626 352.095,-191.723 160.213,-191.605 160.171,-159.636 0.181818,-159.636"/>
+  </object>
+  <object id="44" name="portal_to_village" x="638.299" y="383.972" width="3.90164" height="32.0224">
+   <properties>
+    <property name="sensor" type="bool" value="true"/>
+    <property name="spawnAt" value="entry_from_villageHouse5"/>
+    <property name="targetMap" value="village1.tmx"/>
+   </properties>
+  </object>
+  <object id="48" name="madPot" x="221.25" y="157.125" width="37.25" height="26">
+   <properties>
+    <property name="combat" value="madPot"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="50" name="hurt" x="448" y="159.818" width="127.818" height="32.5455">
+   <properties>
+    <property name="canDamage" type="float" value="5"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="9" name="spawn">
+  <object id="43" name="entry_from_village" x="521.083" y="421.833" width="40.3333" height="17.3333"/>
+ </objectgroup>
+</map>

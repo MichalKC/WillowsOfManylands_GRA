@@ -1,0 +1,144 @@
+{
+    "automappingRulesFile": "",
+    "commands": [
+    ],
+    "compatibilityVersion": 1100,
+    "extensionsPath": "extensions",
+    "folders": [
+        "."
+    ],
+    "properties": [
+    ],
+    "propertyTypes": [
+        {
+            "color": "#ffa0a0a4",
+            "drawFill": true,
+            "id": 4,
+            "members": [
+                {
+                    "name": "animation",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "name": "animationSpeed",
+                    "type": "float",
+                    "value": 0
+                },
+                {
+                    "name": "atlasAsset",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "name": "life",
+                    "type": "int",
+                    "value": 0
+                },
+                {
+                    "name": "lifeReg",
+                    "type": "float",
+                    "value": 0
+                },
+                {
+                    "name": "speed",
+                    "type": "float",
+                    "value": 0
+                }
+            ],
+            "name": "Character",
+            "type": "class",
+            "useAs": [
+                "property",
+                "map",
+                "layer",
+                "object",
+                "tile",
+                "tileset",
+                "wangcolor",
+                "wangset",
+                "project"
+            ]
+        },
+        {
+            "color": "#ffa0a0a4",
+            "drawFill": true,
+            "id": 5,
+            "members": [
+                {
+                    "name": "description",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "name": "itemIcon",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "name": "itemName",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "name": "price",
+                    "type": "int",
+                    "value": 0
+                },
+                {
+                    "name": "sortOffsetY",
+                    "type": "float",
+                    "value": 0
+                },
+                {
+                    "name": "storeType",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "name": "value",
+                    "type": "int",
+                    "value": 0
+                },
+                {
+                    "name": "wear",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "name": "item",
+            "type": "class",
+            "useAs": [
+                "property",
+                "map",
+                "layer",
+                "object",
+                "tile",
+                "tileset",
+                "wangcolor",
+                "wangset",
+                "project"
+            ]
+        },
+        {
+            "color": "#ffa0a0a4",
+            "drawFill": true,
+            "id": 3,
+            "members": [
+            ],
+            "name": "StaticProp",
+            "type": "class",
+            "useAs": [
+                "property",
+                "map",
+                "layer",
+                "object",
+                "tile",
+                "tileset",
+                "wangcolor",
+                "wangset",
+                "project"
+            ]
+        }
+    ]
+}

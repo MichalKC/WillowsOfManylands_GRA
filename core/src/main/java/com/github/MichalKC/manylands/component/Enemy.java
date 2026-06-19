@@ -1,0 +1,97 @@
+package com.github.MichalKC.manylands.component;
+
+import com.badlogic.ashley.core.Component;
+import com.badlogic.ashley.core.ComponentMapper;
+import com.badlogic.gdx.math.MathUtils;
+import com.badlogic.gdx.math.Rectangle;
+import com.badlogic.gdx.math.Vector2;
+import com.github.MichalKC.manylands.tiled.ZoneShape;
+
+public class Enemy implements Component {
+    public static final ComponentMapper<Enemy> MAPPER = ComponentMapper.getFor(Enemy.class);
+
+    private final float aggroRadius;
+    private final float attackRange;
+    private final ZoneShape roamBounds;
+    private final float respawnDelaySec;
+    private final Vector2 spawnPosition;
+    private long deathTimeMillis;
+    private final Vector2 collisionOffset;
+
+    private float patrolTimer;
+    private float idleTimer;
+    private final Vector2 patrolDir = new Vector2();
+    private boolean patrolling;
+
+    public Enemy(float aggroRadius, float attackRange, ZoneShape roamBounds, float respawnDelaySec, Vector2 spawnPosition, Vector2 collisionOffset) {
+        this.aggroRadius = aggroRadius;
+        this.attackRange = attackRange;
+        this.roamBounds = roamBounds;
+        this.respawnDelaySec = respawnDelaySec;
+        this.spawnPosition = new Vector2(spawnPosition);
+        this.deathTimeMillis = -1;
+        this.collisionOffset = collisionOffset != null ? new Vector2(collisionOffset) : new Vector2();
+        this.idleTimer = MathUtils.random(1f, 3f);
+        this.patrolling = false;
+    }
+
+    public float getAggroRadius() {
+        return aggroRadius;
+    }
+
+    public float getAttackRange() {
+        return attackRange;
+    }
+
+    public ZoneShape getRoamBounds() {
+        return roamBounds;
+    }
+
+    public float getRespawnDelaySec() {
+        return respawnDelaySec;
+    }
+
+    public Vector2 getSpawnPosition() {
+        return spawnPosition;
+    }
+
+    public long getDeathTimeMillis() {
+        return deathTimeMillis;
+    }
+
+    public void setDeathTimeMillis(long deathTimeMillis) {
+        this.deathTimeMillis = deathTimeMillis;
+    }
+
+    public float getPatrolTimer() {
+        return patrolTimer;
+    }
+
+    public void setPatrolTimer(float patrolTimer) {
+        this.patrolTimer = patrolTimer;
+    }
+
+    public float getIdleTimer() {
+        return idleTimer;
+    }
+
+    public void setIdleTimer(float idleTimer) {
+        this.idleTimer = idleTimer;
+    }
+
+    public Vector2 getPatrolDir() {
+        return patrolDir;
+    }
+
+    public boolean isPatrolling() {
+        return patrolling;
+    }
+
+    public void setPatrolling(boolean patrolling) {
+        this.patrolling = patrolling;
+    }
+
+    public Vector2 getCollisionOffset() {
+        return collisionOffset;
+    }
+}

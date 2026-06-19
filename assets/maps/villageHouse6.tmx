@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.12.1" orientation="orthogonal" renderorder="right-down" width="23" height="18" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="32">
+ <properties>
+  <property name="music" value="HOUSE"/>
+ </properties>
+ <tileset firstgid="1" source="objects/Houses/TiledMap Editor/Interiors_tilesets.tsx"/>
+ <tileset firstgid="3393" source="objects/Houses/TiledMap Editor/back.tsx"/>
+ <tileset firstgid="3510" source="objects/Houses/TiledMap Editor/Houses-Atlas-Props-Sprites.tsx"/>
+ <tileset firstgid="4067" source="objects/Grass Land/TiledMap Editor/tilesets/Characters.tsx"/>
+ <layer id="1" name="ground1" width="23" height="18">
+  <data encoding="base64" compression="zlib">
+   eJztlFtuwkAMRU0+eLRQ2ERIGlaCSgU7YDsU6GtXVZ+wiNLCKrhWPKoxDqCon3wczWTsOXYmo4xbROMzLndENBPm4B48gCfKY1MVmzp5j5LruRsVojfKeQcf4BOMsN4HryoW5mHkvC/JnTk12H0pNEELXCnnhYqFeRg5r61yO5V99091l9/q3/5vzFeyruecswYbleu54xpRDyQgBdcgk7UQsyQycm6o5bm9vZl4Y1UjNrVsH4fcvK9b0GdRzjH3Kc7MWUtNrKw7Ua4iFuYO1iP4o12/dtjvrPvU5+G5de/enYhr+9+xW3Cn7JkwffR9cwR+N12zg+cBuBWGYBSV++9MzF19dnosC7v1mf+n+8X0vTzg3gImgJK2
+  </data>
+ </layer>
+ <layer id="2" name="ground2" width="23" height="18">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgF+MB/VkwMA8YsDAwmQGwKxEYsqHwQNmPBb/Y/NkwMA8VAvSVAXArERSyofBAuI2C2HTsmhoHNQL1bgHgrC3Y+pSCfGYILgLgQiIuYqWPuKBgFo2B4AABolhhE
+  </data>
+ </layer>
+ <layer id="8" name="ground3" width="23" height="18">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2BogC+cDAxfseBvQKzBTpnZJlwMDKZYsBkX8WZ/ALrjIxL+zEnY7AdANQ+B+BEQP+bEbbYBUK0REBtCaWMuwmYrALEiECsBsTIXfrMNkcwnxuwEIE4E4iQgTsZjdgFQrhCKi4C4GKq2BEiXYsFlQKxNYVyOgsEPANHrIYU=
+  </data>
+ </layer>
+ <layer id="9" name="ground4" width="23" height="18">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjALiwQNOBoaHQPwIiB9zUtdsBS4GBkUgVgJiZS7qmp0ANC8RiJOAOJnKZo8C0gAAFFgGBw==
+  </data>
+ </layer>
+ <objectgroup id="3" name="zones"/>
+ <objectgroup id="4" name="objects">
+  <object id="1" gid="3679" x="271.667" y="187" width="32" height="32"/>
+  <object id="2" gid="3680" x="625.333" y="188.333" width="32" height="32"/>
+  <object id="3" gid="3593" x="550" y="217.333" width="64" height="96"/>
+  <object id="4" gid="3589" x="508" y="217" width="64" height="96"/>
+  <object id="5" gid="3759" x="367" y="221.333" width="128" height="128"/>
+  <object id="7" gid="3562" x="398.167" y="349.167" width="64" height="64"/>
+  <object id="8" gid="3566" x="415.667" y="295.667" width="32" height="64"/>
+  <object id="9" gid="3567" x="460.167" y="325.667" width="32" height="64"/>
+  <object id="10" gid="3565" x="368.667" y="325.167" width="32" height="64"/>
+  <object id="11" gid="3564" x="415.417" y="367.417" width="32" height="64"/>
+  <object id="13" gid="3970" x="176.583" y="382.833" width="64" height="64"/>
+  <object id="14" gid="3597" x="92" y="311" width="32" height="128"/>
+  <object id="15" gid="3597" x="91.6667" y="379" width="32" height="128"/>
+  <object id="17" gid="3590" x="158.667" y="319.417" width="96" height="96"/>
+  <object id="18" gid="3904" x="142.667" y="209.667" width="64" height="64"/>
+  <object id="19" gid="4051" x="158" y="225.333" width="32" height="32"/>
+  <object id="22" gid="3571" x="556.667" y="423.333" width="96" height="96"/>
+  <object id="23" gid="3572" x="570" y="338.667" width="96" height="96"/>
+  <object id="24" gid="3565" x="154.25" y="360" width="32" height="64"/>
+  <object id="25" gid="3567" x="232.25" y="363.5" width="32" height="64"/>
+  <object id="27" gid="3514" x="104.75" y="186.5" width="32" height="64"/>
+  <object id="31" name="player" gid="4067" x="388.5" y="460" width="144" height="96">
+   <properties>
+    <property name="camFollow" type="bool" value="true"/>
+    <property name="controller" type="bool" value="true"/>
+    <property name="respawnDelaySec" type="float" value="3"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="5" name="objects1"/>
+ <objectgroup id="6" name="trigger">
+  <object id="28" name="kolizja1" x="415.875" y="575.875">
+   <polygon points="0,0 0.25,-128 -287.875,-127.875 -287.875,-191.875 -319.875,-191.875 -319.875,-383.875 -159.875,-383.875 -159.875,-351.875 -95.875,-351.875 -95.875,-383.875 -63.875,-383.875 -23.25,-383.875 -23.0625,-373.25 -21.8125,-372.625 53,-372.5 54,-373.688 54.1875,-383.875 192.125,-383.875 192.125,-351.875 256.125,-351.875 256.125,-127.875 96.125,-127.875 96.125,0.125 127.125,-92.875 278.125,-106.708 288.125,-403.875 251.125,-468.375 134.625,-502.375 -129.375,-480.375 -309.875,-498.875 -352.875,-480.875 -352.875,-311.875 -328.875,-149.875 -303.875,-101.375 -218.375,-81.875 -34.875,-90.375"/>
+  </object>
+  <object id="30" name="portal_to_village" x="415.981" y="574.542" width="96.413" height="4.66667">
+   <properties>
+    <property name="sensor" type="bool" value="true"/>
+    <property name="spawnAt" value="entry_from_villageHouse6"/>
+    <property name="targetMap" value="village1.tmx"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="7" name="spawn">
+  <object id="29" name="entry_from_village" x="380.708" y="572.542" width="40.3333" height="17.3333"/>
+ </objectgroup>
+</map>

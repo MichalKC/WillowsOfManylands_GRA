@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.12.1" orientation="orthogonal" renderorder="right-down" width="20" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="111">
+ <properties>
+  <property name="music" value="HOUSE"/>
+ </properties>
+ <tileset firstgid="1" source="objects/Grass Land/TiledMap Editor/tilesets/Terrain.tsx"/>
+ <tileset firstgid="2539" source="objects/Grass Land/TiledMap Editor/tilesets/Characters.tsx"/>
+ <tileset firstgid="2560" source="objects/Houses/TiledMap Editor/Interiors_tilesets.tsx"/>
+ <tileset firstgid="5952" source="objects/Houses/TiledMap Editor/back.tsx"/>
+ <tileset firstgid="6069" source="objects/Houses/TiledMap Editor/Houses-Atlas-Props-Sprites.tsx"/>
+ <tileset firstgid="6626" source="objects/Grass Land/TiledMap Editor/tilesets/AnimatedObjectsSprites.tsx"/>
+ <tileset firstgid="6656" source="objects/Grass Land/TiledMap Editor/tilesets/Atlas-Props-Sprites.tsx"/>
+ <tileset firstgid="9640" source="objects/Grass Land/TiledMap Editor/tilesets/itemsShop.tsx"/>
+ <layer id="1" name="Warstwa Kafelków 1" width="20" height="15">
+  <data encoding="base64" compression="zlib">
+   eJyd0ltOwkAUxvG+KaMdjC/ux5AQi4rGLXjjnR3wgvWSKFuwqDvBKy7CC+6C/6Rz0kn1WNKHX9o5p3xzSqe/EUV9LMdR1IDBClYRw/q11P7qN+M8IzSktoUE+7jBDnaDulw72Pb9A3SDPJlrgjOkuPZ5l7gK6nI9x4XvjzDFOt6xZIt9D021IxzjBKfomWLWNbLatljfmmoZxrjDPR6CvD2bzyezf5hqn/jCN2b4McXvZT5tX7nX+uW1zKftq+VIv/y8zKe9i7aPVnfzTfCMF7zizd+3MIjzubLSnK6+6Z97xJPPmNrf51q4uZMgbxzkJaUzvAiXl/q88J3cOq2Zp30Pd6br5Gn/e1Yz779vq+XNAaoes2c=
+  </data>
+ </layer>
+ <layer id="2" name="ground2" width="20" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBg64LMgA8MXIP6KA39GwzC1uEAKFwNDKhCnAXE6EGdwQcSKoGLY5DO5aO9PQu4mVX8a1A/kghRoWFATGBBhnhEJdhYQqbaVF5XfyItdHbHgKJr+gxSYtxkYZ5vQ4n2jIER8sIBvwgwM35HwD2HKzDMTYWAwR8IWIvjVAwASWieu
+  </data>
+ </layer>
+ <layer id="8" name="ground3" width="20" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2BkgEou7OLVOMSJAbu48PNJBb+48PNHOgAAKnYEmQ==
+  </data>
+ </layer>
+ <objectgroup id="3" name="zones"/>
+ <objectgroup id="4" name="objects">
+  <object id="4" name="player" gid="2539" x="260" y="289.5" width="144" height="96">
+   <properties>
+    <property name="camFollow" type="bool" value="true"/>
+    <property name="controller" type="bool" value="true"/>
+    <property name="respawnDelaySec" type="float" value="3"/>
+   </properties>
+  </object>
+  <object id="6" gid="6277" x="234" y="349" width="32" height="32"/>
+  <object id="7" gid="6277" x="234" y="349" width="32" height="32"/>
+  <object id="8" gid="6277" x="405.5" y="350" width="32" height="32"/>
+  <object id="9" gid="6277" x="405.5" y="350" width="32" height="32"/>
+  <object id="10" gid="6297" x="101.667" y="125.333" width="32" height="64"/>
+  <object id="11" gid="6295" x="508" y="122.333" width="32" height="64"/>
+  <object id="13" gid="6294" x="485.667" y="144.333" width="64" height="64"/>
+  <object id="15" gid="6298" x="508.667" y="166.667" width="32" height="64"/>
+  <object id="17" gid="6313" x="154.667" y="106" width="64" height="64"/>
+  <object id="18" gid="6312" x="214.333" y="105.667" width="64" height="64"/>
+  <object id="19" gid="6275" x="186.667" y="79.3333" width="64" height="64"/>
+  <object id="21" gid="6163" x="562.333" y="218" width="32" height="64"/>
+  <object id="22" gid="6213" x="86.3333" y="186" width="64" height="64"/>
+  <object id="27" gid="6250" x="103.333" y="66.3333" width="96" height="64"/>
+  <object id="28" gid="6251" x="237.333" y="66.3333" width="96" height="64"/>
+  <object id="30" gid="6071" x="478" y="88.75" width="32" height="64"/>
+  <object id="31" gid="6072" x="561" y="161.25" width="32" height="64"/>
+  <object id="32" gid="6072" x="47.25" y="162" width="32" height="64"/>
+  <object id="33" gid="6137" x="317.667" y="122" width="96" height="64"/>
+  <object id="35" gid="6137" x="390" y="122" width="96" height="64"/>
+  <object id="55" gid="6188" x="189.5" y="261.417" width="96" height="96"/>
+  <object id="56" gid="6188" x="363.75" y="260" width="96" height="96"/>
+  <object id="63" gid="6108" x="32" y="269.667" width="64" height="96"/>
+  <object id="98" name="storage1" gid="6643" x="72" y="194" width="192" height="192">
+   <properties>
+    <property name="storage" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="108" gid="9808" x="150.394" y="152.212" width="16" height="16">
+   <properties>
+    <property name="inside" value="storage1"/>
+   </properties>
+  </object>
+  <object id="110" gid="6299" x="442.364" y="84" width="32" height="64"/>
+ </objectgroup>
+ <objectgroup id="5" name="objects1">
+  <object id="46" gid="6242" x="331.25" y="85.25" width="32" height="32"/>
+  <object id="47" gid="6248" x="358.375" y="85.75" width="32" height="32"/>
+  <object id="48" gid="6244" x="384.625" y="85.625" width="32" height="32"/>
+  <object id="50" gid="6246" x="410.75" y="85.625" width="32" height="32"/>
+  <object id="52" gid="6187" x="188.833" y="227" width="96" height="128"/>
+  <object id="53" gid="6187" x="363.5" y="225" width="96" height="128"/>
+  <object id="57" gid="6306" x="324.75" y="100" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup id="7" name="trigger">
+  <object id="2" name="portal_return" x="277.083" y="478.208" width="118" height="2.91667">
+   <properties>
+    <property name="sensor" type="bool" value="true"/>
+    <property name="spawnAt" value="entry_from_blacksmith_place"/>
+    <property name="targetMap" value="maingrass.tmx"/>
+   </properties>
+  </object>
+  <object id="74" name="kolizja" x="224" y="480.13">
+   <polygon points="0,0 0,-96.1739 53.913,-96.087 53.9565,-192.217 -192,-192.13 -192,-288.217 -128.174,-288.13 -127.938,-384.193 319.906,-384.13 319.969,-288.13 383.938,-288.13 383.938,-192.193 170.063,-192.13 170,-96.1739 223.913,-96.1304 224.043,-0.173913 253.832,-1.7624 252.75,-168.88 401.5,-170.63 397.5,-429.63 321.5,-477.63 -154.5,-476.13 -203.5,-414.13 -207.5,-178.63 -20.5,-159.13 -19.5,-4.13043"/>
+  </object>
+ </objectgroup>
+ <objectgroup id="6" name="spawn">
+  <object id="97" name="entry_from_maingrass" x="247.333" y="497.917" width="41.5" height="17.3333"/>
+ </objectgroup>
+ <layer id="9" name="ground4" width="20" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2DkgCouBoZqLgi7kgvCHwVDBwAAkD0CEQ==
+  </data>
+ </layer>
+</map>
